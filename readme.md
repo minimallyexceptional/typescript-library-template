@@ -1,57 +1,31 @@
-# Typescript Library Template
+# Typescript Library Template 📚
 
 A modern, superior, development environment for starting new Typescript libraries.
 
-# Features
- - Documentation Generation ✅
- - Test Coverage Reports ✅
- - Automatic Formatting ✅
- - Preconfigured Git Hooks ✅
- - Sensible Defaults ✅
- - Fully Open Source ✅
+# The Mission 🪖
 
-## The Mission
+The goal of this project is to leverage modern tooling to create a superior TypeScript editing experience that offers exceptional developer ergonomics.
 
-The aim of this project revolves around leveraging modern tooling to create a superior TypeScript editing experience that offers exceptional developer ergonomics.
+# The Vision ⛰️
 
-## Vision
+The vision is to harness the full potential of these contemporary tools to automate various aspects of the development process, such as seamless code formatting, effortless generation of project documentation and code coverage reports. The overarching goal is to construct a straightforward and adaptable project template that can function autonomously or seamlessly integrate into larger monorepositories using pnpm.
 
-The vision is to harness the full potential of these contemporary tools to automate various aspects of the development process, such as seamless code formatting and effortless generation of project documentation. The overarching goal is to construct a straightforward and adaptable project template that can function autonomously or seamlessly integrate into larger monorepositories using pnpm.
-
-## License
+# License 👔
 
 Furthermore, this project is committed to the principles of openness and collaboration. To reflect this ethos, it employs the Unlicense, a permissive open-source license that promotes absolute freedom in using the software. The Unlicense allows for maximum flexibility, enabling users to copy, modify, and distribute the code without any restrictions or requirements.
 
 This approach fosters a sense of shared ownership, encouraging contributions from the community and fostering an environment where innovation thrives unhindered. The use of the Unlicense underscores the project's dedication to open collaboration and the spirit of giving back to the development community.
 
-# Table of Contents
+# Features 💰
+ - Documentation Generation ✅
+ - Test Coverage Report Generation ✅
+ - Automatic Formatting ✅
+ - Preconfigured Git Hooks ✅
+ - Sensible Defaults ✅
+ - Vscode Workspace ✅
+ - Fully Open Source ✅
 
-- [Typescript Library Template](#typescript-library-template)
-  - [Mission Statement](#mission-statement)
-  - [Vision](#vision)
-  - [License](#license)
-- [Table of Contents](#table-of-contents)
-  - [Tooling](#tooling)
-    - [Prerequisites](#prerequisites)
-  - [Getting Started](#getting-started)
-  - [Getting Started](#getting-started-1)
-  - [Scripts](#scripts)
-    - [init](#init)
-    - [start](#start)
-    - [lint](#lint)
-    - [test](#test)
-    - [test:watch](#testwatch)
-    - [test:coverage](#testcoverage)
-    - [format](#format)
-    - [format:watch](#formatwatch)
-    - [build](#build)
-    - [docs:generate](#docsgenerate)
-  - [Contributing](#contributing)
-
----
-
-## Tooling
-
+# Tooling 🛠️
 - Typescript ✅
 - Jest ✅
 - pnpm (Efficient Package Management) ✅
@@ -59,22 +33,23 @@ This approach fosters a sense of shared ownership, encouraging contributions fro
 - Prettier (Automatic Formatting) ✅
 - Husky (Git hooks) ✅
 - TypeDoc (Documentation Generation) ✅
+---
 
-### Prerequisites
+# Getting Started 🔥
 
-[pnpm](https://pnpm.io)
+## Prerequisites ⁉️
+- [pnpm](https://pnpm.io)
+- [Prettier Extension](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [ESLint Extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
-## Getting Started
-
+## Initial Setup
 The init command will install all depencdies and initialize pre-commit hooks via [Husky]('https://typicode.github.io/husky/)
 
 ```
 pnpm run init
 ```
 
----
-
-## Scripts
+# Scripts 📜
 
 This project provides a set of npm scripts to assist with development and maintenance.
 
@@ -128,7 +103,7 @@ This project provides a set of npm scripts to assist with development and mainte
 - **Description**: Generates project documentation using Typedoc. It will output documentation into the "docs" directory.
 - **Usage**: Run this script to generate documentation for your TypeScript source code.
 
-## Contributing
+# Contributing 🫂
 
 I believe that great projects are the result of a collective effort and a diverse range of perspectives. Your contributions to this project are highly valued, and we welcome everyone to participate.
 
