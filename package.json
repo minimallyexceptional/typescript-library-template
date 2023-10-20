@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "start": "ts-node ./index.ts",
-    "lint": "eslint .",
+    "lint": "eslint",
     "test": "jest",
     "test:watch": "jest --watchAll",
     "test:coverage": "jest --coverage",
