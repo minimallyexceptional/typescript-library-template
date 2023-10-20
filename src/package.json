@@ -8,11 +8,14 @@
   },
   "scripts": {
     "start": "ts-node ./index.ts",
+    "lint": "eslint",
     "build": "npx tsc -p tsconfig.build.json && pnpm run docs && pnpm run build:copy ",
     "build:copy": "cp ./package.json ../dist/package.json && cp -r ../docs ../dist/docs/",
     "test": "jest",
     "test:watch": "jest --watchAll",
     "test:coverage": "jest --coverage",
+    "format": "prettier --config ../.prettierrc './**/*.ts' --write",
+    "format:watch": "onchange './**/*.ts' -- prettier --write {{changed}}",
     "docs": "typedoc --out ../docs ./**/*.ts --entryPointStrategy Resolve"
   },
   "author": "YOUR NAME",

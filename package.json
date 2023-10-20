@@ -9,9 +9,6 @@
   ],
   "scripts": {
     "test": "test",
-    "lint": "eslint",
-    "format": "prettier --config .prettierrc 'src/**/*.ts' --write",
-    "format:watch": "onchange 'src/**/*.ts' -- prettier --write {{changed}}",
     "init": "pnpm install && husky install"
   },
   "keywords": [
