@@ -1,14 +1,22 @@
 # Typescript Library Template
 
-A modern, superior development environment for starting new Typescript packages.
+A modern, superior, development environment for starting new Typescript libraries.
 
-## Mission Statement
+# Features
+ - Documentation Generation ✅
+ - Test Coverage Reports ✅
+ - Automatic Formatting ✅
+ - Preconfigured Git Hooks ✅
+ - Sensible Defaults ✅
+ - Fully Open Source ✅
 
-The vision of this project revolves around leveraging modern tooling to create a superior TypeScript editing experience that offers exceptional developer ergonomics.
+## The Mission
+
+The aim of this project revolves around leveraging modern tooling to create a superior TypeScript editing experience that offers exceptional developer ergonomics.
 
 ## Vision
 
-The aim is to harness the full potential of these contemporary tools to automate various aspects of the development process, such as seamless code formatting and effortless generation of project documentation. The overarching goal is to construct a straightforward and adaptable project template that can function autonomously or seamlessly integrate into larger monorepositories using pnpm.
+The vision is to harness the full potential of these contemporary tools to automate various aspects of the development process, such as seamless code formatting and effortless generation of project documentation. The overarching goal is to construct a straightforward and adaptable project template that can function autonomously or seamlessly integrate into larger monorepositories using pnpm.
 
 ## License
 
@@ -44,13 +52,13 @@ This approach fosters a sense of shared ownership, encouraging contributions fro
 
 ## Tooling
 
-- Typescript
-- Jest
-- pnpm (Efficient Package Management)
-- Eslint (Linting)
-- Prettier (Automatic Formatting)
-- Husky (Git hooks)
-- TypeDoc (Documentation Generation)
+- Typescript ✅
+- Jest ✅
+- pnpm (Efficient Package Management) ✅
+- Eslint (Linting) ✅
+- Prettier (Automatic Formatting) ✅
+- Husky (Git hooks) ✅
+- TypeDoc (Documentation Generation) ✅
 
 ### Prerequisites
 
