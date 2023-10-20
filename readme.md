@@ -36,7 +36,7 @@ This approach fosters a sense of shared ownership, encouraging contributions fro
 
 ## Initial Setup
 
-The init command will install all depencdies and initialize pre-commit hooks via [Husky]('https://typicode.github.io/husky/)
+The init command will install all dependencies and initialize pre-commit hooks via [Husky]('https://typicode.github.io/husky/)
 
 ```
 pnpm run init
