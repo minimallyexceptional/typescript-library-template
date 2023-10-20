@@ -1,5 +1,5 @@
 /**
- * Wraps the message you send to it with a hello
+ * Returns 'hi' or a custom message
  *
  * @param message Optional string to send a custom message
  * @returns A custom message or "hi" if no message is provdided
@@ -13,7 +13,7 @@ export function sayHello(message?: string) {
 }
 
 /**
- * Wraps the message you send to it with a goodbye
+ * Returns 'goodbye' or a custom message
  *
  * @param message Optional string to send a custom message
  * @returns A custom message or "goodbye" if no message is provdided
