@@ -58,10 +58,6 @@ This approach fosters a sense of shared ownership, encouraging contributions fro
 
 ## Getting Started
 
-The init command will install all dependencies and initialize pre-commit hooks via [Husky](https://typicode.github.io/husky/).
-
-## Getting Started
-
 The init command will install all depencdies and initialize pre-commit hooks via [Husky]('https://typicode.github.io/husky/)
 
 ```
@@ -130,9 +126,9 @@ I believe that great projects are the result of a collective effort and a divers
 
 Here are a few ways you can get involved in this project:
 
-1. **Reporting Issues**: If you come across any bugs, errors, or have suggestions for improvements, please don't hesitate to [open an issue](#) on the project's GitHub repository. Your feedback helps us make the project better.
+1. **Reporting Issues**: If you come across any bugs, errors, or have suggestions for improvements, please don't hesitate to [open an issue](https://github.com/minimallyexceptional/typescript-library-template/pulls) on the project's GitHub repository. Your feedback helps us make the project better.
 
-2. **Feature Requests**: If you have an idea for a new feature or enhancement, we encourage you to [open a feature request](#) on GitHub. We'll consider all suggestions and work together to determine the best way to implement them.
+2. **Feature Requests**: If you have an idea for a new feature or enhancement, we encourage you to [open a feature request](https://github.com/minimallyexceptional/typescript-library-template/issues/new) on GitHub. We'll consider all suggestions and work together to determine the best way to implement them.
 
 3. **Code Contributions**: If you're interested in contributing code, feel free to fork the project, make your changes, and submit a pull request. We're committed to reviewing and merging valuable contributions from the community.
 
