@@ -9,8 +9,9 @@
   "scripts": {
     "start": "ts-node ./index.ts",
     "lint": "eslint",
-    "build": "npx tsc -p tsconfig.build.json && pnpm run docs && pnpm run build:copy ",
+    "build": "npx tsc -p tsconfig.build.json && pnpm run docs && pnpm run build:copy && pnpm run build:legal",
     "build:copy": "cp ./package.json ../dist/package.json && cp -r ../docs ../dist/docs/",
+    "build:legal": "cp ./readme.md ../dist/readme.md && cp ./LICENSE.txt ../dist/LICENSE.txt",
     "test": "jest",
     "test:watch": "jest --watchAll",
     "test:coverage": "jest --coverage",
