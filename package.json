@@ -34,7 +34,7 @@
     "typedoc",
     "prettier"
   ],
-  "author": "James Abels",
+  "author": "Minimally Excpetional LLC",
   "license": "Unlicense",
   "dependencies": {
     "typescript": "^5.2.2"
