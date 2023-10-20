@@ -5,9 +5,9 @@ module.exports = {
   preset: 'ts-jest',
   testEnvironment: 'node',
   collectCoverage: true,
-  collectCoverageFrom: ['src/**/*.ts'],
+  collectCoverageFrom: ['./**/*.ts'],
   coveragePathIgnorePatterns: ['node_modules/', 'dist/', 'docs/', '.husky/'],
-  coverageDirectory: '<rootDir>/coverage/',
+  coverageDirectory: '../coverage/',
   coverageThreshold: {
     global: {
       branches: 20,

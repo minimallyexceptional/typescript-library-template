@@ -14,9 +14,9 @@
     "isolatedModules": true,
     "baseUrl": ".",
     "noFallthroughCasesInSwitch": true,
-    "outDir": "./dist"
+    "outDir": "../dist"
   },
   "compileOnSave": true,
-  "include": ["src/**/*.ts", "index.ts"],
-  "exclude": ["node_modules/", "src/**/*.spec.ts", "dist/", "coverage/"]
+  "include": ["./lib/*.ts", "./index.ts"],
+  "exclude": ["node_modules/", "./**/*.spec.ts", "dist/", "coverage/"]
 }
